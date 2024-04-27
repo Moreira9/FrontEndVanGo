@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Motorista</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+<body class="cadastro">
+    <header>
+        <h1>VanGo</h1>
+    <nav class="menu">
+    <ul>
+        <li><a href="index.html" target="_blank" rel="noopener noreferrer">Página Inicial</a></li>
+        <li><a href="nosso_servicos.html" target="_blank" rel="noopener noreferrer">Nossos Serviços</a></li>
+        <li><a href="contato.html" target="_blank" rel="noopener noreferrer">Contato</a></li>
+        <li><a href="sobre.html" target="_blank" rel="noopener noreferrer">Sobre</a></li>
+        <li><a href="para_quem.html" target="_blank" rel="noopener noreferrer">Para Quem?</a></li>
+    </ul>
+    </nav>
+    </header>
+    <form action="https://65f0d7d1da8c6584131c805f.mockapi.io/Motorista" method="post">
+    <h2>Cadastro de Motoristas</h2>
+   <fieldset>
+    <p>
+        <label for="nome">Nome do Motorista</label>
+        <input type="text" name="nomeMotorista" id="nomeMotorista" required>
+    </p>
+    <p>
+        <label for="email">E-Mail do Motorista</label>
+        <input type="email" name="emailMotorista" id="emailMotorista" required>
+    </p>
+    <p>
+        <label for="CPF">CPF do Motorista</label>
+        <input type="text" name="CPFMotorista" id="CPFMotorista" required>
+    </p>
+    <p>
+        <label for="modeloVan">Modelo da Van</label>
+        <input type="text" name="modeloVan" id="modeloVan" required>
+    </p>
+    <p>
+        <label for="placaVan">Placa da Van</label>
+        <input type="text" name="placaVan" id="placaVan" required>
+    </p>
+    <p>
+        <label for="numeroCelular">Número de Celular</label>
+        <input type="number" name="numeroCelular" id="numeroCelular" required>
+    </p>
+
+    <button type="submit">Salvar</button>
+
+    <button type="reset">Limpar</button>
+   </fieldset>
+</form>
+</body>
+</html>

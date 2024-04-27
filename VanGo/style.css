@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+    box-sizing: border-box;
+    
+}
+
+h1{
+    background-image: linear-gradient(to right, orange, goldenrod);
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+}
+
+.menu{
+    background-color: black;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.menu li{
+    list-style: none;
+    display: inline-flex;
+}
+
+.menu a {
+    text-decoration: none;
+    color: orange;
+    padding: 10px;
+}
+
+#FotoInicial{
+    background-color: darkgoldenrod;
+    display: flex;
+}
+
+.FotoInicial__imagem{
+    display: flex;
+    justify-content: flex-start;
+    width: 500px;
+    height: 600px;
+    padding: 50px;
+}
+.FotoInicial__texto strong{
+    font-size: 86px;
+}
+
+.FotoInicial__texto p {
+    padding: 30px;
+    font-size: 25px;
+}
+
+.FotoInicial__texto{
+    text-align: center;
+    justify-content: flex-end;
+    margin: 50px;
+    padding:50px;
+    color: rgb(232, 154, 10);
+    border: 5px solid rgb(55, 54, 54);
+    background-color: rgb(55, 54, 54);
+}
+
+
+#Contato{
+    background-color: black;
+    color: goldenrod;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 200px;
+}
+
+#Contato img{
+    display: block  ;
+    border-radius:80%;
+    height: 180px;
+    width: 250px;
+}
+
+#Contato h3{
+    font-size: 50px;
+    padding: 30px;
+}
+
+#Para_Quem{
+   background-color: goldenrod;
+   display: flex;
+   padding-top: 170px;
+   padding-left: 115px;
+   padding-bottom: 130px;
+   column-gap: 30px;
+}
+
+.Coluna_Para_Quem{
+    border: 1px black solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.Coluna_Para_Quem h4{
+    display: flex;
+    text-align: start;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.Coluna_Para_Quem p{
+    display: flex;
+    text-align: start;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    margin-bottom: 4px;
+}
+
+.Coluna_Para_Quem img{
+    display: flex;
+    width: 350px;
+    height: 400px;
+    
+}
+
+.Coluna_Para_Quem button{
+    display: flex;
+    width: 130px;
+    height: 30px;
+    color: orange;
+    margin-left: 10px;
+    margin-bottom: 4px;
+}
+
+.Coluna_Para_Quem button a{
+    text-decoration: none;
+    color: orange;
+}
+
+
+
+#FeedBack{
+    background-color: darkgoldenrod;
+}
+
+.titulo_FeedBack{
+
+    flex-direction: column;
+    text-align: center;    
+}
+
+#FeedBack h3{
+    color: white;
+    font-size: 40px;
+}
+
+.Coluna_FeedBack{
+    color: goldenrod;
+    border: 1px rgb(55, 54, 54) solid;
+    background-color: rgb(55, 54, 54);
+    flex-direction: row;
+}
+
+#Opiniao{
+    background-color: rgb(55, 54, 54);
+    display: flex;
+}
+
+.imagem_Opiniao{
+    display: flex;
+    justify-content: flex-start;
+    width: 10px;
+    height: 350px;
+    padding: 50px; 
+    padding-left: 0px;
+}
+
+.texto_Opiniao{
+    margin: 50px;
+    margin-right: 0px;
+    padding:105px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    border: 5px solid rgb(232, 154, 10);
+    background-color: rgb(232, 154, 10);
+    text-align: center;
+}
+
+.texto_Opiniao h2{
+    font-size: 50px;
+    color: white;
+    justify-content: center;
+    text-align: center ;
+}
+
+.texto_Opiniao p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+    color: rgb(55, 54, 54);
+}
+
+
+
+footer{
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+}
+
+footer h3{
+    font-size: 30px;
+}
+
+footer p{
+    margin: 50px;
+}
+
+.cadastro{
+    background-color: goldenrod;
+}
+
+.cadastro h2{
+    padding: 50px;
+    color: black;
+    text-align: center;
+}
+
+fieldset {
+    position: relative;
+    left: 20%;
+    width: 60%;
+    border: none;
+    padding: 5px;
+    margin: 0;
+}
+
+fieldset textarea{
+    position: relative;
+    left: 0%;
+    width: 98%;
+    padding: 0;
+    margin: 0;
+}
+
+
+fieldset p{
+    padding:10px;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+        input[type="tel"],
+        input[type="email"],
+        select {
+            width: calc(100% - 12px);
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+.info_aluno{
+    padding:5px;
+    position: relative;
+    left: 20%;
+    color: white;
+}
+
+.info_van{
+    padding:5px;
+    position: relative;
+    left: 20%;
+    top: 20px;
+    color: white;
+}
+
+.mapa{
+    position: relative;
+    width: 100%;
+    left: 20%;
+    top: 80px;
+}
+
+.botao_aluno{
+    display: inline-block;
+    position: relative;
+    left: 20%;
+    justify-content: space-around;
+    border: 1px solid black;
+    
+}
